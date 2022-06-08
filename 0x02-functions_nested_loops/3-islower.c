@@ -7,5 +7,8 @@
 
 int _islower(int c)
 {
-return (c >= 97 && c <= 122);
+_putchar (c >= 97 && c <= 122);
+ _putchar('\n');
+   return (0)
+ 
 }
