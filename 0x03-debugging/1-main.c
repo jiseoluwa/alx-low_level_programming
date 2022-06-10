@@ -8,11 +8,13 @@
 int main (void)
 {
   int i;
-  printf("Ifinite loop incoming :(\n");
+  printf("Infinite loop incoming :(\n");
   
   i = 0;
   
-  while (i < 10)
+  /*while (i < 10)*/
+  /*i really need to work harder*/
+  
     
     {
       putchar(i);
