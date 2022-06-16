@@ -1,15 +1,14 @@
 #include "main.h"
 #include <string.h>
 /**
- *_strncpy - function that copys a string
- *@dest: the destination of the copied string
- *@src: - the source of the string to be copied
- *@n: - the number of bytes to be copied
+ *_strcmp - compares two strings char by char
+ *          if strings are equal returns 0
+ * @s1: The first string
+ * @s2: The second string
  *
- *Return: returns the new value of @dest
+ * Return: returns value of _strcmp
  */
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	strncpy(dest, src, n);
-	return (dest);
+	return (strcmp(s1, s2));
 }
